@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Lib.master.cs" Inherits="Library.Lib" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title></title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        <link rel ="stylesheet" type ="text/css" href="style.css" />
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div>
+                <table class="auto-style4">
+                    <tr>
+                        <td class="auto-style5"><img class="auto-style3" src="gjv.jpg" /></td>
+                        <td class="auto-style9">Library Managment </td>
+                    </tr>
+                </table>
+                <div id="container" class="auto-style8">
+                    <ul class="menu">
+                        <li class="auto-style11"><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Librarian/insert.aspx" CssClass="hyperlink"><b>Insert New Books</b></asp:HyperLink></li>
+                        <li class="auto-style12"><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Librarian/update.aspx" CssClass="hyperlink"><b>Edit Book Info</b></asp:HyperLink></li>
+                        <li class="auto-style12"><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Librarian/issue.aspx" CssClass="hyperlink"><b>Issue</b></asp:HyperLink></li>
+                        <li class="auto-style12"><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Librarian/renew.aspx" CssClass="hyperlink"><b>Renew</b></asp:HyperLink></li>
+                        <li class="auto-style12"><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Librarian/return.aspx" CssClass="hyperlink"><b>Return</b></asp:HyperLink></li>
+                        <li class="auto-style12"><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Librarian/mail.aspx" CssClass="hyperlink"><b>Send Mail</b></asp:HyperLink></li>
+                        <li class="auto-style12"></li>
+                        <li class="auto-style12"></li>                        
+                        <li class="auto-style13"><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Login.aspx" CssClass="hyperlink"><b>Logout</b></asp:HyperLink></li>
+                    </ul>
+                </div>
+            </div>
+            <br /><br /><br /><br /><br /><br /><br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">       
+            </asp:ContentPlaceHolder>         
+        </form>
+    </body>
+</html>
+

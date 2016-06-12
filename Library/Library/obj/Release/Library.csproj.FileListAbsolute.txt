@@ -1,0 +1,6 @@
+E:\Library\Library\Library\Library\bin\Library.dll.config
+E:\Library\Library\Library\Library\bin\Library.dll
+E:\Library\Library\Library\Library\bin\Library.pdb
+E:\Library\Library\Library\Library\obj\Release\Library.csprojResolveAssemblyReference.cache
+E:\Library\Library\Library\Library\obj\Release\Library.dll
+E:\Library\Library\Library\Library\obj\Release\Library.pdb

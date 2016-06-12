@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Student.master.cs" Inherits="Library.Student" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title></title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        <link rel ="stylesheet" type ="text/css" href="style.css" />
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div>
+                <table class="auto-style4">
+                    <tr>
+                        <td class="auto-style5"><img class="auto-style3" src="gjv.jpg" /></td>
+                        <td class="auto-style9">Library Managment </td>
+                    </tr>
+                </table>
+                <div id="container" class="auto-style8">
+                    <ul class="menu">
+                        <li class="auto-style11"><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Student/search.aspx" CssClass="hyperlink"><b>Search Book</b></asp:HyperLink></li>
+                        <li class="auto-style12"><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Student/profile.aspx" CssClass="hyperlink"><b>Profile</b></asp:HyperLink></li>
+                        <li class="auto-style12"></li>
+                        <li class="auto-style12"></li>
+                        <li class="auto-style12"></li>
+                        <li class="auto-style12"></li>                        
+                        <li class="auto-style12"></li>
+                        <li class="auto-style12"></li>
+                        <li class="auto-style13"><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Login.aspx" CssClass="hyperlink"><b>Logout</b></asp:HyperLink></li>
+                     </ul>
+                </div>
+            </div>
+            <br /><br /><br /><br /><br /><br /><br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">       
+            </asp:ContentPlaceHolder>
+        </form>
+    </body>
+</html>

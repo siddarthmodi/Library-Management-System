@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<!-- Homepage Specific Elements -->
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.tabs.setup.js"></script>
+
+ <div class="wrapper row1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="index.html">Keshav Memorial Institute of Technology</a></h1>
+      <p>KMIT</p>
+    </div>
+  
+  </div>
+</div>
+    <div class="wrapper row2">
+  <div class="rnd">
+    <!-- ###### -->
+    <div id="topnav">
+     
+    </div>
+    <!-- ###### -->
+  </div>
+</div>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+
+        <div class="wrapper row4">
+  
+</div>
+
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+      
+    </form>
+</body>
+</html>

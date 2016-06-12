@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LibraryConnectionString-Web.config Connection String" description="LibraryConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=SANTOSH;Initial Catalog=Library;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\Library\\Library\\Library\\Library\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LibraryConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
